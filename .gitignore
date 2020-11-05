@@ -1,0 +1,15 @@
+*
+*/
+
+!.git*
+!.bashrc
+
+!.dotfiles/
+!.emacs.d/
+!.config/i3/
+
+!.config/
+.config/*
+!.config/xkeysnail/
+!.config/xkeysnail/*
+
