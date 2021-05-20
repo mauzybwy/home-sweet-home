@@ -25,6 +25,23 @@ define_conditional_modmap(re.compile(r'Emacs'), {
     # To use this example, you can't remap capslock with define_modmap.
 # )
 
+# Keybindings for Freecad
+define_keymap(re.compile("FreeCAD"), {
+    # Cursor
+    K("C-b"): with_mark(K("left")),
+    K("C-f"): with_mark(K("right")),
+    K("C-p"): with_mark(K("up")),
+    K("C-n"): with_mark(K("down")),
+
+    # Forward/Backward word
+    K("M-b"): with_mark(K("C-left")),
+    K("M-f"): with_mark(K("C-right")),
+    
+    # Beginning/End of line
+    K("C-a"): with_mark(K("home")),
+    K("C-e"): with_mark(K("end")),
+    
+}, "Freecad")
 
 # Keybindings for Firefox/Chrome
 define_keymap(re.compile("Firefox|Google-chrome"), {
