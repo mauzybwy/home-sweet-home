@@ -1,12 +1,12 @@
 [submodule ".dotfiles"]
 	path = .dotfiles
-	url = https://github.com/mzybwy/dotfiles.git
+	url = https://github.com/mauzybwy/dotfiles.git
 [submodule ".config/i3"]
 	path = .config/i3
-	url = https://github.com/mzybwy/i3-cfg.git
+	url = https://github.com/mauzybwy/i3-cfg.git
 [submodule ".local/scripts"]
 	path = .local/scripts
-	url = https://github.com/mzybwy/sys-scripts.git
+	url = https://github.com/mauzybwy/sys-scripts.git
 [submodule ".emacs.d"]
 	path = .emacs.d
-	url = https://github.com/mzybwy/emilio.git
+	url = https://github.com/mauzybwy/emilio.git
