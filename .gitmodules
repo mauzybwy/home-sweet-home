@@ -4,6 +4,9 @@
 [submodule ".config/i3"]
 	path = .config/i3
 	url = https://github.com/mzybwy/i3-cfg.git
+[submodule ".local/scripts"]
+	path = .local/scripts
+	url = https://github.com/mzybwy/sys-scripts.git
 [submodule ".emacs.d"]
 	path = .emacs.d
 	url = https://github.com/mzybwy/emilio.git
